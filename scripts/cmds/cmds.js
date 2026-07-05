@@ -2,7 +2,7 @@ const axios = require("axios");
 
 const baseApiUrl = async () => {
         const base = await axios.get("https://raw.githubusercontent.com/mahmudx7/HINATA/main/baseApiUrl.json");
-        return base.data.mahmud;
+        return base.data.abdullah;
 };
 
 module.exports = {
@@ -10,7 +10,7 @@ module.exports = {
                 name: "cmdstore",
                 aliases: ["cmds", "cs"],
                 version: "1.7",
-                author: "MahMUD",
+                author: "𝐀𝐍𝐃 𝐔𝐋𝐋 𝐀𝐇",
                 countDown: 5,
                 role: 0,
                 category: "utility",
@@ -29,13 +29,14 @@ module.exports = {
                         notFound: "❌ | No \"%1\" commands found.",
                         notYourReply: "❌ | not your reply baby 🐸",
                         invalidSelection: "❌ | Invalid selection! Please enter a valid number.",
-                        error: "× API error: %1. Contact MahMUD for help.\n•WhatsApp: 01836298139"
+                        error: "× API error: %1. Contact 𝐀𝐁𝐃 𝐔𝐋𝐋 𝐀𝐇 for help.\n•WhatsApp: 𝟎𝟏𝟖𝟐𝟑𝟑𝟑𝟗𝟒𝟗𝟐".\n•Facebook:"https://www.facebook.com/share/1RFVSPn99D/"
+             
                 },
                 vi: {
                         notFound: "❌ | Không tìm thấy lệnh \"%1\".",
                         notYourReply: "❌ | Không phải phản hồi của bạn đâu cưng 🐸",
                         invalidSelection: "❌ | Lựa chọn không hợp lệ!",
-                        error: "× API error: %1. Contact MahMUD for help.\n•WhatsApp: 01836298139"
+                        error: "× API error: %1. Contact 𝐀𝐁𝐃 𝐔𝐋𝐋 𝐀𝐇 for help.\n•WhatsApp: 𝟎𝟏𝟖𝟐𝟑𝟑𝟑𝟗𝟒𝟗𝟐".\n•Facebook:"https://www.facebook.com/share/1RFVSPn99D/"
                 }
         },
 
